@@ -1,21 +1,3 @@
-/*
-
-* ==UserScript==
-* @ScriptName        FileBall挂载阿里云盘、Alist
-* @Author            @Changes,@Cuttlefish
-* @TgChannel         https://t.me/ddgksf2021
-* @Contribute        https://t.me/ddgksf2013_bot
-* @Feedback          📮 ddgksf2013@163.com 📮
-* @WechatID          墨鱼手记
-* @UpdateTime        2022-09-13
-* @ScriptFunction    FileBall挂载阿里云盘、Alist，播放云盘中的音乐和视频文件
-* @Attention         如需引用请注明出处，谢谢合作！
-* @Version           v0.0.10
-* @Suit              脚本已使用Env做了兼容处理，理论适配多个工具，请自行测试
-* @ScriptURL         https://github.com/ddgksf2013/Scripts/raw/main/ali.js
-* ==/UserScript==
-
-
 [rewrite_local]
 
 ^https?:\/\/.*\.example\.com url script-analyze-echo-response https://github.com/ddgksf2013/Scripts/raw/main/ali.js
