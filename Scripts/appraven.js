@@ -1,15 +1,3 @@
-/***********************************
-> 應用名稱：appraven
-> 軟件版本：1.6.3
-> 下載地址：https://apps.apple.com/cn/app/id1490607195
-> 腳本作者：Cuttlefish
-> 微信賬號：墨魚手記
-> 更新時間：2022-03-22
-> 腳本功能：⛔自我安慰，只為界面好看，無實際VIP功能⛔
-> 通知頻道：https://t.me/ddgksf2021
-> 問題反饋：https://t.me/ddgksf2013_bot
-> 特别說明：本腳本僅供學習交流使用，禁止轉載售賣
- 
 [rewrite_local]
 
 # ～ appraven（2022-03-22）@ddgksf2013
