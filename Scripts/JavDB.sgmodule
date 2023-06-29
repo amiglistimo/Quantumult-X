@@ -1,0 +1,14 @@
+#!name=JavDB 解锁永久会员
+#!desc=JavDB 解锁永久会员
+
+#软件版本:1.9.16
+#脚本作者:Hausd0rff
+#更新时间:2023-05-26
+#使用声明：️脚本仅供学习交流, 🈲️商业用途
+
+[Script]
+http-response ^https?:\/\/api\.pxxgg\.xyz\/api\/v1\/users script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/javbdvipcrack.js, requires-body=true, tag=javdb 解锁永久会员
+http-request ^https?:\/\/api\.pxxgg\.xyz\/api\/v1\/(movies\/.*\/play|startup) script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/javdbvipcrack.js, requires-body=false, tag=javdb 解锁永久会员
+
+[MITM]
+hostname = api.pxxgg.xyz
