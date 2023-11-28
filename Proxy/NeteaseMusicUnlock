@@ -10,4 +10,4 @@ http=pc.tencentcdn.net:35000, over-tls=false, fast-open=false, udp-relay=false, 
 
 http=155.248.169.205:70, over-tls=false, fast-open=false, udp-relay=false, server_check_url=http://interface3.music.163.com, tag=网易云解锁⑥
 
-http=100.100.100.100:20000, over-tls=false, fast-open=false, udp-relay=false, tag=UpdateTime20221028
+http=100.100.100.100:20000, over-tls=false, fast-open=false, udp-relay=false, tag=网易云解锁⑦
