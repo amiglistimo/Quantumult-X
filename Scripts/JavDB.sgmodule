@@ -7,8 +7,8 @@
 #使用声明：️脚本仅供学习交流, 🈲️商业用途
 
 [Script]
-http-response ^https?:\/\/api\.pxxgg\.xyz\/api\/v1\/users script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/javbdvipcrack.js, requires-body=true, tag=javdb 解锁永久会员
-http-request ^https?:\/\/api\.pxxgg\.xyz\/api\/v1\/(movies\/.*\/play|startup) script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/javdbvipcrack.js, requires-body=false, tag=javdb 解锁永久会员
+http-response ^https?:\/\/.*\/api\/v1\/users script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/javbdvipcrack.js, requires-body=true, tag=javdb 解锁永久会员
+http-request ^https?:\/\/.*\/api\/v1\/(movies\/.*\/play|startup) script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/javdbvipcrack.js, requires-body=false, tag=javdb 解锁永久会员
 
 [MITM]
-hostname = api.pxxgg.xyz
+hostname = api.pxxgg.xyz api.ujvnmkx.cn jdforrepam.com api.yijingluowangluo.xyz api.wwwuh5.cn api.hechuangxinxi.xyz
