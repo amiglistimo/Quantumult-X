@@ -1,0 +1,17 @@
+# > 支付宝 - ALIPAY
+host-suffix, mdap.alipay.com, reject
+host-suffix, loggw.alipaydns.com, reject
+host-suffix, loggw.alipay.com.cn, reject
+
+# > 美团 - MEITUAN
+host, flowplus.meituan.net, reject
+host-suffix, analytics.meituan.net, reject
+host-suffix, meituan.xn, reject
+host-suffix, meituan.yoga, reject
+host-suffix, meituangov.cn, reject
+host-suffix, report.meituan.com, reject
+host-suffix, wmlog.meituan.com, reject
+host-suffix, ad.e.waimai.sankuai.com, reject
+host-suffix, mads.meituan.com, reject
+host-suffix, dreport.meituan.net, reject
+host-suffix, d.meituan.net, reject
