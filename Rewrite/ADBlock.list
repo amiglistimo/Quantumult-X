@@ -1,9 +1,14 @@
-# > 支付宝 - ALIPAY
+# from https://github.com/zirawell/app_remove_ads/tree/main/Adblock
+# https://raw.githubusercontent.com/zirawell/app_remove_ads/main/Adblock/M/%E7%BE%8E%E5%9B%A2/filter/meituan.list
+# https://raw.githubusercontent.com/zirawell/app_remove_ads/main/Adblock/Z/%E6%94%AF%E4%BB%98%E5%AE%9D/filter/alipay.list
+# https://raw.githubusercontent.com/zirawell/app_remove_ads/main/Adblock/D/%E5%A4%A7%E4%BC%97%E7%82%B9%E8%AF%84/filter/dianPing.list
+
+# > 支付宝
 host-suffix, mdap.alipay.com, reject
 host-suffix, loggw.alipaydns.com, reject
 host-suffix, loggw.alipay.com.cn, reject
 
-# > 美团 - MEITUAN
+# > 美团
 host, flowplus.meituan.net, reject
 host-suffix, analytics.meituan.net, reject
 host-suffix, meituan.xn, reject
@@ -15,3 +20,13 @@ host-suffix, ad.e.waimai.sankuai.com, reject
 host-suffix, mads.meituan.com, reject
 host-suffix, dreport.meituan.net, reject
 host-suffix, d.meituan.net, reject
+
+# > 大众点评
+host, dpmtpush.dianping.com, reject
+host-suffix, lx.meituan.net, reject
+host-suffix, sankuai.com, reject
+host-suffix, api-unionid.meituan.com, reject
+host-suffix, s3plus.meituan.net, reject
+ip-cidr, 101.32.16.204/32, reject
+ip-cidr, 203.76.217.244/32, reject
+ip-cidr, 119.29.126.137/32, reject
