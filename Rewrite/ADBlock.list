@@ -5,10 +5,10 @@
 # https://raw.githubusercontent.com/zirawell/app_remove_ads/main/Adblock/D/%E5%A4%A7%E4%BC%97%E7%82%B9%E8%AF%84/filter/dianPing.list
 
 # > 阿里系通用规则
-host, ossgw.alicdn.com, reject
 host, hudong.alicdn.com, reject
 host, o2o-ad-log-gateway.alibaba.com, reject
 host-suffix, mpush-api.aliyun.com, reject
+ip-cidr, 59.82.120.0/24, reject
 
 # > 支付宝
 host-suffix, mdap.alipay.com, reject
