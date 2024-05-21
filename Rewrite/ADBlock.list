@@ -14,19 +14,6 @@ ip-cidr, 59.82.120.0/24, reject
 host-suffix, mdap.alipay.com, reject
 host-suffix, loggw.alipay.com.cn, reject
 
-# > 美团
-host, flowplus.meituan.net, reject
-host-suffix, analytics.meituan.net, reject
-host-suffix, meituan.xn, reject
-host-suffix, meituan.yoga, reject
-host-suffix, meituangov.cn, reject
-host-suffix, report.meituan.com, reject
-host-suffix, wmlog.meituan.com, reject
-host-suffix, ad.e.waimai.sankuai.com, reject
-host-suffix, mads.meituan.com, reject
-host-suffix, dreport.meituan.net, reject
-host-suffix, d.meituan.net, reject
-
 # > 大众点评
 host, dpmtpush.dianping.com, reject
 host-suffix, lx.meituan.net, reject
