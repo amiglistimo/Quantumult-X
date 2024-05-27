@@ -8,7 +8,18 @@ host, hudong.alicdn.com, reject
 host, o2o-ad-log-gateway.alibaba.com, reject
 host-suffix, mpush-api.aliyun.com, reject
 ip-cidr, 59.82.120.0/24, reject
+ip-cidr, 59.82.122.0/24, reject
+ip-cidr, 59.82.121.0/24, reject
 
 # > 支付宝
 host-suffix, mdap.alipay.com, reject
 host-suffix, loggw.alipay.com.cn, reject
+
+# > 大众点评
+host, dpmtpush.dianping.com, reject
+host, dynamicf.sankuai.com, reject
+host-suffix, lx.meituan.net, reject
+host-suffix, mars.meituan.com, reject
+ip-cidr, 101.32.16.204/32, reject
+ip-cidr, 203.76.217.244/32, reject
+ip-cidr, 119.29.126.137/32, reject
