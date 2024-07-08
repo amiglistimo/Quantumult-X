@@ -6,8 +6,10 @@
 # > 通用过滤 - GENERAL
 host, gdfp.gifshow.com, reject
 host, open.e.kuaishou.com, reject
-host-suffix, adukwai.com, reject
-host-suffix, miaozhen.com, reject
+host, ad.zijieapi.com, reject
+host, adtracker.adfunlink.com, reject
+host, init.supersonicads.com, reject
+host, is.snssdk.com, reject
 host, log.umsns.com, reject
 host, cnlogs.umeng.com, reject
 host, errlog.umeng.com, reject
@@ -23,12 +25,27 @@ host, mi.gdt.qq.com, reject
 host, pgdt.ugdtimg.com, reject
 host, sdk.e.qq.com, reject
 host, win.gdt.qq.com, reject
+host, open.kuaishou.com, reject
+host, ws.tapjoyads.com, reject
+host, hdns.ksyun.com, reject
+host, pagead2.googlesyndication-cn.com, reject
+host, pagead2.googlesyndication.com, reject
+host, pagead2.googleadservices.com, reject
+host, www.googleadservices.com, reject
 host-suffix, doubleclick-cn.net, reject
 host-suffix, doubleclick.net, reject
 host-suffix, jiguang.cn, reject
 host-suffix, admobile.top, reject
-host-suffix, pubads.g.doubleclick.net, reject
-host-suffix, pagead2.googleadservices.com, reject
+host-suffix, adukwai.com, reject
+host-suffix, miaozhen.com, reject
+host-suffix, ads.vungle.com, reject
+host-suffix, adservice.google.com, reject
+host-suffix, applovin.com, reject
+host-suffix, applvn.com, reject
+host-suffix, appsflyer.com, reject
+host-suffix, appsflyersdk.com, reject
+host-suffix, kuaishouzt.com, reject
+host-suffix, unityads.unity3d.com, reject
 host-keyword, -ad-sign.byteimg.com, reject
 host-keyword, -tos.pstatp.com, reject
 host-keyword, asiad.byteactivity, reject
@@ -36,6 +53,7 @@ host-keyword, pangolin-sdk-toutiao, reject
 host-keyword, pangolin.snssdk.com, reject
 host-keyword, pglstatp-toutiao, reject
 host-keyword, video-cn.snssdk.com, reject
+host-keyword, ads.g.doubleclick, reject
 
 # > 广告联盟 - ADUNION
 host-suffix, miaozhen.com, reject
@@ -48,9 +66,13 @@ host-keyword, pglstatp-toutiao, reject
 host-keyword, video-cn.snssdk.com, reject
 
 # > 阿里系通用规则 - ALI_GENERAL
-host, hudong.alicdn.com, reject
 host, o2o-ad-log-gateway.alibaba.com, reject
+host, ossgw.alicdn.com, reject
+host, hudong.alicdn.com, reject
+host, dns.alidns.com, reject
+host, ems.youku.com, reject
 host-suffix, mpush-api.aliyun.com, reject
+host-suffix, ut.taobao.com, reject
 ip-cidr, 59.82.120.0/24, reject
 ip-cidr, 59.82.122.0/24, reject
 ip-cidr, 59.82.121.225/32, reject
