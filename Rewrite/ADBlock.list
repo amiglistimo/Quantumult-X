@@ -3,7 +3,7 @@
 # https://raw.githubusercontent.com/zirawell/app_remove_ads/main/Adblock/Z/%E6%94%AF%E4%BB%98%E5%AE%9D/filter/alipay.list
 # https://raw.githubusercontent.com/zirawell/app_remove_ads/main/Adblock/D/%E5%A4%A7%E4%BC%97%E7%82%B9%E8%AF%84/filter/dianPing.list
 
-# > 通用过滤 - GENERAL
+# > 通用过滤
 host, gdfp.gifshow.com, reject
 host, open.e.kuaishou.com, reject
 host, ad.zijieapi.com, reject
@@ -55,7 +55,7 @@ host-keyword, pglstatp-toutiao, reject
 host-keyword, video-cn.snssdk.com, reject
 host-keyword, ads.g.doubleclick, reject
 
-# > 广告联盟 - ADUNION
+# > 广告联盟
 host-suffix, miaozhen.com, reject
 host-keyword, -ad-sign.byteimg.com, reject
 host-keyword, -tos.pstatp.com, reject
@@ -65,7 +65,7 @@ host-keyword, pangolin.snssdk.com, reject
 host-keyword, pglstatp-toutiao, reject
 host-keyword, video-cn.snssdk.com, reject
 
-# > 阿里系通用规则 - ALI_GENERAL
+# > 阿里系通用规则
 host, o2o-ad-log-gateway.alibaba.com, reject
 host, ossgw.alicdn.com, reject
 host, hudong.alicdn.com, reject
@@ -83,7 +83,7 @@ ip-cidr, 59.82.121.83/32, reject
 host-suffix, mdap.alipay.com, reject
 host-suffix, loggw.alipay.com.cn, reject
 
-# > 大众点评 - DIANPING
+# > 大众点评
 host, dpmtpush.dianping.com, reject
 host, dynamicf.sankuai.com, reject
 host-suffix, lx.meituan.net, reject
@@ -94,3 +94,10 @@ ip-cidr, 119.29.126.137/32, reject
 
 # > 美团 搜索误杀修正
 host-suffix, d.meituan.net, direct
+
+# > 什么值得买
+host, api.zuihuimai.com, reject
+
+# > 工商银行
+host, pageviewp.icbc.com.cn, reject
+host-suffix, mall.icbc.com.cn, reject
