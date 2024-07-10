@@ -3,9 +3,8 @@
 # https://raw.githubusercontent.com/zirawell/app_remove_ads/main/Adblock/Z/%E6%94%AF%E4%BB%98%E5%AE%9D/filter/alipay.list
 # https://raw.githubusercontent.com/zirawell/app_remove_ads/main/Adblock/D/%E5%A4%A7%E4%BC%97%E7%82%B9%E8%AF%84/filter/dianPing.list
 
-# > 通用过滤
+# > 通用过滤 - GENERAL
 host, gdfp.gifshow.com, reject
-host, open.e.kuaishou.com, reject
 host, ad.zijieapi.com, reject
 host, adtracker.adfunlink.com, reject
 host, init.supersonicads.com, reject
@@ -26,8 +25,10 @@ host, pgdt.ugdtimg.com, reject
 host, sdk.e.qq.com, reject
 host, win.gdt.qq.com, reject
 host, open.kuaishou.com, reject
+host, open.e.kuaishou.com, reject
 host, ws.tapjoyads.com, reject
 host, hdns.ksyun.com, reject
+host, adttrackingprd.hwwt8.com, reject
 host, pagead2.googlesyndication-cn.com, reject
 host, pagead2.googlesyndication.com, reject
 host, pagead2.googleadservices.com, reject
@@ -47,6 +48,7 @@ host-suffix, appsflyersdk.com, reject
 host-suffix, kuaishouzt.com, reject
 host-suffix, unityads.unity3d.com, reject
 host-keyword, -ad-sign.byteimg.com, reject
+host-keyword, -analytics.bytescm.com, reject
 host-keyword, -tos.pstatp.com, reject
 host-keyword, asiad.byteactivity, reject
 host-keyword, pangolin-sdk-toutiao, reject
