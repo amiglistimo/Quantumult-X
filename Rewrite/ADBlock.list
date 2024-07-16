@@ -3,7 +3,7 @@
 # https://raw.githubusercontent.com/zirawell/app_remove_ads/main/Adblock/Z/%E6%94%AF%E4%BB%98%E5%AE%9D/filter/alipay.list
 # https://raw.githubusercontent.com/zirawell/app_remove_ads/main/Adblock/D/%E5%A4%A7%E4%BC%97%E7%82%B9%E8%AF%84/filter/dianPing.list
 
-# > 通用过滤 - GENERAL
+# > 通用过滤
 host, gdfp.gifshow.com, reject
 host, ad.zijieapi.com, reject
 host, adtracker.adfunlink.com, reject
@@ -12,6 +12,7 @@ host, is.snssdk.com, reject
 host, log.umsns.com, reject
 host, cnlogs.umeng.com, reject
 host, errlog.umeng.com, reject
+host, errnewlog.umeng.com, reject
 host, ucc.umeng.com, reject
 host, ulogs.umeng.com, reject
 host, utoken.umeng.com, reject
@@ -28,6 +29,8 @@ host, open.kuaishou.com, reject
 host, open.e.kuaishou.com, reject
 host, ws.tapjoyads.com, reject
 host, hdns.ksyun.com, reject
+host, et.tanx.com, reject
+host, adservice.sigmob.cn, reject
 host, adttrackingprd.hwwt8.com, reject
 host, pagead2.googlesyndication-cn.com, reject
 host, pagead2.googlesyndication.com, reject
