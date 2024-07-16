@@ -120,6 +120,10 @@ host-suffix, d.meituan.net, direct
 # > 什么值得买
 host, api.zuihuimai.com, reject
 
+# > 招商银行
+host, mbads.paas.cmbchina.com, reject
+host, yl.zh.cmbchina.com, reject
+
 # > 工商银行
 host, pageviewp.icbc.com.cn, reject
 host-suffix, mall.icbc.com.cn, reject
