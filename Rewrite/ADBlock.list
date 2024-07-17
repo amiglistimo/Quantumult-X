@@ -88,6 +88,7 @@ ip-cidr, 59.82.121.31/32, reject
 ip-cidr, 59.82.121.83/32, reject
 
 # > 支付宝
+host, adgw.alipay.com, reject
 host-suffix, mdap.alipay.com, reject
 host-suffix, loggw.alipay.com.cn, reject
 
