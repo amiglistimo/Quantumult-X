@@ -309,6 +309,13 @@ host, ad.bn.netease.com, reject
 host-suffix, analytics.163.com, reject
 host-suffix, httpdns.n.netease.com, reject
 
+# > 交管12123
+host-suffix, v3.fstats.xyz, reject
+host-suffix, wss.haoyundmn.com, reject
+host-suffix, new.xiongzhangad.com, reject
+host-suffix, alexametrics.com, reject
+host-keyword, in-page-push, reject
+
 # > 同花顺
 host, adm.10jqka.com.cn, reject
 host, stat.10jqka.com.cn, reject
