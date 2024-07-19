@@ -216,3 +216,7 @@ host, yl.zh.cmbchina.com, reject
 # > 工商银行
 host, pageviewp.icbc.com.cn, reject
 host-suffix, mall.icbc.com.cn, reject
+
+# > 同花顺
+host, adm.10jqka.com.cn, reject
+host, stat.10jqka.com.cn, reject
