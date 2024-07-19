@@ -309,6 +309,10 @@ host, ad.bn.netease.com, reject
 host-suffix, analytics.163.com, reject
 host-suffix, httpdns.n.netease.com, reject
 
+# > 招商银行
+host, mbads.paas.cmbchina.com, reject
+host, yl.zh.cmbchina.com, reject
+
 # > 交管12123
 host-suffix, v3.fstats.xyz, reject
 host-suffix, wss.haoyundmn.com, reject
