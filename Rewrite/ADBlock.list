@@ -474,6 +474,9 @@ host, stat.10jqka.com.cn, reject
 # > 中国移动
 ip-cidr, 120.240.95.37/32, reject
 
+# > Twitter推特
+host, analytics.twitter.com, reject
+
 # > 安全浏览限制解除
 host, lookup.api.bsb.baidu.com, reject
 host, safebrowsing.g.applimg.com, reject
