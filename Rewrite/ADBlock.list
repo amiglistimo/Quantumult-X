@@ -555,6 +555,12 @@ host-suffix, mads.meituan.com, reject
 host-suffix, dreport.meituan.net, reject
 host-suffix, d.meituan.net, reject
 
+# > 支付宝 - ALIPAY
+host, adgw.alipay.com, reject
+host-suffix, mdap.alipay.com, reject
+host-suffix, ynuf.alipay.com, reject
+host-suffix, loggw.alipay.com.cn, reject
+
 # > 大众点评 - DIANPING
 host, dpmtpush.dianping.com, reject
 host, dynamicf.sankuai.com, reject
