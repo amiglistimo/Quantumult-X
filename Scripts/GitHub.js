@@ -3,7 +3,7 @@ GitHub 1.142.1
 除了Ai功能，其他功能都可用
 
 [rewrite_local]
-https://api.github.com/graphql url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Github.js
+https://api.github.com/graphql url script-response-body https://raw.githubusercontent.com/amiglistimo/Quantumult-X/main/Scripts/GitHub.js
 
 [mitm]
 hostname = api.github.com
