@@ -3,7 +3,7 @@
 
 Name：Emoji+ 
 
-download：商店版本15.3.5.2
+# https://apps.apple.com/us/app/emoji/id506460513（商店版本15.3.5.2）
 
 
 
