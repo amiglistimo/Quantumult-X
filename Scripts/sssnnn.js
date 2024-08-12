@@ -5,7 +5,7 @@
 # 加密来源 @PayNe
 ====================================
 [rewrite_local]
-^https?:\/\/api\.x-storm\.com\/app\/(user-profile|share-code\/get)\/$ url script-response-body https://raw.githubusercontent.com/Yu9191/Script/main/sssnnn.js
+^https?:\/\/api\.x-storm\.com\/app\/(user-profile|share-code\/get)\/$ url script-response-body https://raw.githubusercontent.com/amiglistimo/Quantumult-X/main/Scripts/sssnnn.js
 
 [mitm]
 hostname = *.x-storm.com
