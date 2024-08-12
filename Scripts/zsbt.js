@@ -3,8 +3,7 @@
 
 [rewrite_local]
 
-^https:\/\/w\.liupinyike\.com\/tablet\/api\/(class\/hour\/list|amineIndex|vipIndex) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/zsbt.js
-
+^https:\/\/w\.liupinyike\.com\/tablet\/api\/(class\/hour\/list|amineIndex|vipIndex) url script-response-body https://raw.githubusercontent.com/amiglistimo/Quantumult-X/main/Scripts/zsbt.js
 [mitm]
 hostname = w.liupinyike.com
 
