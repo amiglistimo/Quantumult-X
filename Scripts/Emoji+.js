@@ -8,7 +8,7 @@ download：商店版本15.3.5.2
 
 
 [rewrite_local]
-^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Reven/Emoji+.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/amiglistimo/Quantumult-X/main/Scripts/Emoji%2B.js
 
 
 [MITM]
