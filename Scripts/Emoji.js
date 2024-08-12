@@ -8,7 +8,7 @@ Name：Emoji+
 
 
 [rewrite_local]
-^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/amiglistimo/Quantumult-X/main/Scripts/Emoji%2B.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/amiglistimo/Quantumult-X/main/Scripts/Emoji.js
 
 
 [MITM]
