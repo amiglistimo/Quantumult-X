@@ -3,7 +3,7 @@
 
 [rewrite_local]
 
-^https?:\/\/nice\.fingervideo\.cn\/vision-video-service\/api\/(login|user\/detail) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/meilixiu.js
+^https?:\/\/nice\.fingervideo\.cn\/vision-video-service\/api\/(login|user\/detail) url script-response-body https://raw.githubusercontent.com/amiglistimo/Quantumult-X/main/Scripts/meilixiu.js
 
 [mitm]
 hostname = nice.fingervideo.cn
