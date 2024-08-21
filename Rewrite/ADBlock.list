@@ -1,5 +1,24 @@
 # from https://github.com/zirawell/app_remove_ads/tree/main/Adblock
 
+# > 安全浏览限制解除
+host, lookup.api.bsb.baidu.com, reject
+host, safebrowsing.g.applimg.com, reject
+host, safebrowsing.googleapis.com, reject
+host, safebrowsing.urlsec.qq.com, reject
+host-suffix, safebrowsing.apple, reject
+host-suffix, u3.ucweb.com, reject
+# > DNS拦截 - DNSINTERCEPT
+ip-cidr, 119.29.29.98/32, reject
+ip-cidr, 119.29.29.99/32, reject
+ip-cidr, 81.71.61.216/32, reject
+# > Adobe Flash China Special Edition - ADSEUNLOCK
+host, geo2.adobe.com, reject
+
+# > 微信
+host, badjs.weixinbridge.com, reject
+host, dns.weixin.qq.com.cn, reject
+host-suffix, wxs.qq.com, reject
+
 # > 淘宝
 host-suffix, apoll.m.taobao.com, reject
 host-suffix, w.m.taobao.com, reject
@@ -119,17 +138,3 @@ ip-cidr, 120.240.95.37/32, reject
 
 # > Twitter推特
 host, analytics.twitter.com, reject
-
-# > 安全浏览限制解除
-host, lookup.api.bsb.baidu.com, reject
-host, safebrowsing.g.applimg.com, reject
-host, safebrowsing.googleapis.com, reject
-host, safebrowsing.urlsec.qq.com, reject
-host-suffix, safebrowsing.apple, reject
-host-suffix, u3.ucweb.com, reject
-# > DNS拦截 - DNSINTERCEPT
-ip-cidr, 119.29.29.98/32, reject
-ip-cidr, 119.29.29.99/32, reject
-ip-cidr, 81.71.61.216/32, reject
-# > Adobe Flash China Special Edition - ADSEUNLOCK
-host, geo2.adobe.com, reject
