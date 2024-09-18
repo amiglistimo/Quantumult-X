@@ -102,6 +102,8 @@ host, meta.pinduoduo.com, reject
 
 # > 支付宝
 host, adgw.alipay.com, reject
+host, amdc.alipay.com, reject
+host, amdc-sibling.alipay.com.cn, reject
 host-suffix, mdap.alipay.com, reject
 host-suffix, ynuf.alipay.com, reject
 host-suffix, loggw.alipay.com.cn, reject
