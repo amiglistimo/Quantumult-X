@@ -140,6 +140,12 @@ ip-cidr, 120.240.95.37/32, reject
 
 # > Twitter推特
 host, analytics.twitter.com, reject
+host-suffix, ads-twitter.com, reject
+host-suffix, p.twitter.com, reject
+host-suffix, scribe.twitter.com, reject
+host-suffix, syndication.twitter.com, reject
+host-suffix, syndication-o.twitter.com, reject
+host-suffix, urls.api.twitter.com, reject
 
 # > JavDB
 host, api.liquidlink.cn, reject
