@@ -149,3 +149,6 @@ host-suffix, urls.api.twitter.com, reject
 
 # > JavDB
 host, api.liquidlink.cn, reject
+
+# > 收钱吧<微信小程序>
+host, ads-shopping.shouqianba.com, reject
