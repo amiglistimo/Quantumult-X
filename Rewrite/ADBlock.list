@@ -126,6 +126,9 @@ host, ynuf.aliapp.org, reject
 host, mbads.paas.cmbchina.com, reject
 host, yl.zh.cmbchina.com, reject
 
+# > 平安口袋银行
+host, dwtracking.jk.cn, reject
+
 # > 交管12123
 host-suffix, v3.fstats.xyz, reject
 host-suffix, wss.haoyundmn.com, reject
