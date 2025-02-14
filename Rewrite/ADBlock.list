@@ -162,6 +162,9 @@ host, stat.10jqka.com.cn, reject
 # > 中国移动
 ip-cidr, 120.240.95.37/32, reject
 
+# > 12306
+host, ad.12306.cn, reject
+
 # > Twitter推特
 host, analytics.twitter.com, reject
 host-suffix, ads-twitter.com, reject
