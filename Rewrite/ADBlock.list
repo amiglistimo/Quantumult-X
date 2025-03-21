@@ -108,7 +108,6 @@ ip-cidr, 180.97.42.0/24, reject
 ip-cidr, 212.129.220.0/24, reject
 host, titan.pinduoduo.com, reject
 host, apm.pinduoduo.com, reject
-host, m.pinduoduo.net, reject
 host, ta-a.pinduoduo.com, reject
 host, ta.pinduoduo.com, reject
 host, th-a.pinduoduo.com, reject
@@ -118,6 +117,9 @@ host, ta.yangkeduo.com, reject
 host, th.yangkeduo.com, reject
 host, meta.yangkeduo.com, reject
 host, meta.pinduoduo.com, reject
+host, m.pinduoduo.net, reject
+host, commimg-2.pddpic.com, reject
+host, commimg-1.pddpic.com, reject
 
 # > 支付宝 - ALIPAY
 host, adgw.alipay.com, reject
