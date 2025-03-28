@@ -1,9 +1,4 @@
 // 名称: V2EX送码监测(QX专版)
-// 经实测可在Quantumult X 1.4.2+稳定运行
-// 修复内容：
-// 1. 替换所有$persistentStore为$prefs
-// 2. 增加API存在性检查
-// 3. 优化错误提示
 
 const url = "https://www.v2ex.com/?tab=creative";
 const keyword = "码";
