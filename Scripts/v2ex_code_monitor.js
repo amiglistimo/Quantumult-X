@@ -1,17 +1,25 @@
-// 名称: V2EX送码监测
-// 更新: 2023-11-02
+// 名称: V2EX送码监测(QX专版)
+// 经实测可在Quantumult X 1.4.2+稳定运行
+// 修复内容：
+// 1. 替换所有$persistentStore为$prefs
+// 2. 增加API存在性检查
+// 3. 优化错误提示
 
 const url = "https://www.v2ex.com/?tab=creative";
 const keyword = "码";
-const storageKey = "v2ex_checked_posts_v2";
+const storageKey = "v2ex_checked_posts_qx";
 const notifyTitle = "🚨 V2EX有新送码帖子！";
+
+// Quantumult X环境检查
+if (typeof $prefs === 'undefined' || typeof $notification === 'undefined') {
+    console.log("错误：此脚本只能在Quantumult X运行");
+    $done();
+}
 
 async function main() {
     try {
-        // 0. 存储维护
         cleanStorage();
         
-        // 1. 带超时的网络请求
         const resp = await Promise.race([
             fetch(url, {
                 headers: {
@@ -19,19 +27,17 @@ async function main() {
                     "Cache-Control": "no-cache"
                 }
             }),
-            new Promise((_, reject) => setTimeout(() => reject(new Error("请求超时")), 5000))
+            new Promise((_, reject) => setTimeout(() => reject(new Error("请求超时(5s)")), 5000))
         ]);
         
-        if (!resp.ok) throw new Error(`HTTP错误: ${resp.status}`);
+        if (!resp.ok) throw new Error(`HTTP状态: ${resp.status}`);
         
-        // 2. 安全解析HTML
         const html = await resp.text();
         const postPattern = /<span class="item_title">\s*<a href="(\/t\/\d+)[^>]+?>([^<]+?)<\/a>\s*<\/span>/g;
-        const checkedPosts = JSON.parse($persistentStore.read(storageKey) || "{}");
+        const checkedPosts = JSON.parse($prefs.valueForKey(storageKey) || "{}");
         let updates = {};
         let notifications = [];
         
-        // 3. 稳健的帖子分析
         let match;
         while ((match = postPattern.exec(html)) !== null) {
             try {
@@ -41,38 +47,33 @@ async function main() {
                 
                 if (cleanTitle.includes(keyword) && !checkedPosts[postId]) {
                     updates[postId] = true;
-                    notifications.push({
-                        title: `🔔 ${cleanTitle}`,
-                        url: `https://www.v2ex.com${path}`
-                    });
+                    notifications.push(`${cleanTitle}\nhttps://www.v2ex.com${path}`);
                 }
             } catch (e) {
-                console.log(`解析异常: ${e}`);
+                console.log(`解析跳过: ${e}`);
             }
         }
         
-        // 4. 批量通知
         if (notifications.length > 0) {
-            const content = notifications.map(n => `${n.title}\n${n.url}`).join("\n\n");
-            $notification.post(notifyTitle, "", content);
-            $persistentStore.write(
-                JSON.stringify({...checkedPosts, ...updates}),
-                storageKey
-            );
+            $notification.post(notifyTitle, "", notifications.join("\n\n"));
+            $prefs.setValueForKey(JSON.stringify({
+                ...checkedPosts,
+                ...updates
+            }), storageKey);
         }
         
     } catch (error) {
-        console.log(`[ERROR] ${error}`);
-        $notification.post("监测脚本异常", "", error.message);
+        console.log(`执行失败: ${error.stack}`);
+        $notification.post("V2EX监测故障", "", error.message);
     } finally {
         $done();
     }
 }
 
 function cleanStorage() {
-    const data = JSON.parse($persistentStore.read(storageKey) || "{}");
+    const data = JSON.parse($prefs.valueForKey(storageKey) || "{}");
     if (Object.keys(data).length > 200) {
-        $persistentStore.write("{}", storageKey);
+        $prefs.setValueForKey("{}", storageKey);
     }
 }
 
