@@ -1,5 +1,3 @@
-[![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
-
 # Some useful Scripts
 
 Designed to enhance app features, block ads, or automate tasks.
