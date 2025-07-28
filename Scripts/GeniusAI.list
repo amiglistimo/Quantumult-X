@@ -1,0 +1,9 @@
+# NAME: Genius AI
+# AUTHOR: amiglistimo
+# REPO: https://github.com/amiglistimo/Quantumult-X/tree/main/Scripts
+# UPDATED: 2025-07-28 15:17:30
+# HOST-SUFFIX: 3
+# TOTAL: 3
+HOST-SUFFIX,us.i.posthog.com,12306
+HOST-SUFFIX,api.onesignal.com,12306
+HOST-SUFFIX,collector.superwall.me,12306
