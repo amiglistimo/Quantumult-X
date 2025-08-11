@@ -1,4 +1,4 @@
-# NAME: Genius AI
+# NAME: Proxy rules
 # AUTHOR: amiglistimo
 # REPO: https://github.com/amiglistimo/Quantumult-X/tree/main/Scripts
 # UPDATED: 2025-07-28 15:17:30
@@ -24,3 +24,7 @@ HOST-SUFFIX,api-sr.amplitude.com,TwinMind
 HOST-SUFFIX,api.gleap.io,TwinMind
 HOST-SUFFIX,sdk.gleap.io,TwinMind
 HOST-SUFFIX,ws.gleap.io,TwinMind
+
+HOST-SUFFIX,u.expo.dev,UNLTDAI
+HOST-SUFFIX,i.expo.dev,UNLTDAI
+HOST-SUFFIX,zlqabhikjyyahrmpjvil.supabase.co,UNLTDAI
