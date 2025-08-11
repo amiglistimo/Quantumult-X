@@ -18,3 +18,9 @@ HOST-SUFFIX,chipman-cdn.appadvice.com,AppAdvice
 HOST-SUFFIX,push-registration.appadvice.com,AppAdvice
 HOST-SUFFIX,c.compete.com,AppAdvice
 HOST-SUFFIX,d63gi6seww2bt.cloudfront.net,AppAdvice
+
+HOST-SUFFIX,api.thirdear.live,TwinMind
+HOST-SUFFIX,api-sr.amplitude.com,TwinMind
+HOST-SUFFIX,api.gleap.io,TwinMind
+HOST-SUFFIX,sdk.gleap.io,TwinMind
+HOST-SUFFIX,ws.gleap.io,TwinMind
