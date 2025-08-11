@@ -10,6 +10,8 @@ HOST-SUFFIX,collector.superwall.me,GeniusAI
 HOST-KEYWORD,posthog,GeniusAI
 HOST-KEYWORD,onesignal,GeniusAI
 HOST-KEYWORD,superwall,GeniusAI
+HOST-KEYWORD,api.shorebird.dev,GeniusAI
+HOST-KEYWORD,bad-maryjo-elevation-apps-f4bb6064.koyeb.app,GeniusAI
 
 HOST-SUFFIX,agf-schema.appadvice.com,AppAdvice
 HOST-SUFFIX,cdn-appsgonefree.appadvice.com,AppAdvice
@@ -28,3 +30,4 @@ HOST-SUFFIX,ws.gleap.io,TwinMind
 HOST-SUFFIX,u.expo.dev,UNLTDAI
 HOST-SUFFIX,i.expo.dev,UNLTDAI
 HOST-SUFFIX,zlqabhikjyyahrmpjvil.supabase.co,UNLTDAI
+
