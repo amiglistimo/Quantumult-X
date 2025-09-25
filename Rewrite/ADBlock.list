@@ -160,6 +160,9 @@ host, yl.zh.cmbchina.com, reject
 # > 平安口袋银行
 host, dwtracking.jk.cn, reject
 
+# > 中国工商银行
+host, pageviewp.icbc.com.cn, reject
+
 # > 晓晓优选
 host-suffix, 1rtb.net, reject
 host-suffix, adwangmai.com, reject
