@@ -1,0 +1,18 @@
+# DingTalk 去广告 — Quantumult X 配置片段
+# 去除钉钉 iOS 开屏广告 & 内容广告
+# 作者：ENI × LO
+# 日期：2026-02-27
+
+[rewrite_local]
+# 阻断广告 H5 资源
+^https?:\/\/n\.dingtalk\.com\/dingding\/h5-advertise\/ url reject
+
+# 拦截离线包配置，移除 advertise 应用
+^https?:\/\/n\.dingtalk\.com\/dingtalk-static\/offline-package\/resource_package_app_config.*\.json url script-response-body DingTalk_remove_ads.js
+
+[filter_local]
+# 阻断广告域名（可选，更激进）
+# host-keyword, h5-advertise, reject
+
+[mitm]
+hostname = n.dingtalk.com
